@@ -1,0 +1,12 @@
+; generated_rule mysql - panel
+( if 
+( begin 
+( is ( window_name ) "/bin/bash /usr/bin/mysqlauthd - lilyterm" )
+) 
+( begin 
+( undecorate )
+( opacity 90 )
+( center )
+( println "match" )
+)
+)
