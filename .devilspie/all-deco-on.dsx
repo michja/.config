@@ -1,0 +1,14 @@
+; generated_rule All decorations on
+( if 
+( and 
+( not ( is ( application_name ) "Docky" ) )
+( and
+( not ( is ( application_name ) "xfce4-notifyd" ) )
+( not ( contains ( application_name ) "conky" ) )
+) 
+)
+( begin 
+( decorate )
+( println "match" )
+)
+)
