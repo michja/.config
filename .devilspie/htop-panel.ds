@@ -1,0 +1,11 @@
+; generated_rule htop-panel
+( if 
+( begin 
+( is ( window_name ) "htop - lilyterm" )
+) 
+( begin 
+( undecorate )
+( opacity 90 )
+( center )
+)
+)
