@@ -1,0 +1,19 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: argb:DD232221, argb:00fabd2f, #232221
+rofi.color-normal: argb:00232221, #a2a2a2, argb:00232221, #fabd2f, #14161f
+rofi.color-active: #fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3
+rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+rofi.fullscreen: true
+rofi.line-padding: 20
+rofi.padding: 80 
+rofi.font: "Ubuntu 18" 
+rofi.width: 1366 
+rofi.location: 0 
+rofi.lines: 3 
+rofi.bw: 80 
+rofi.separator-style: none 
+
+
