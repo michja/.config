@@ -1,0 +1,10 @@
+export ZSH=/home/michael/.oh-my-zsh
+ZSH_THEME="michael"
+export EDITOR='vim'
+plugins=(git)
+setopt no_share_history
+autoload -U zmv
+precmd() { print "" }
+
+source $ZSH/oh-my-zsh.sh
+source ~/.scripts/z.sh
