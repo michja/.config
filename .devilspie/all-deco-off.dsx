@@ -1,0 +1,5 @@
+; generated_rule All decorations off
+( begin 
+( undecorate )
+( println "match" )
+)
