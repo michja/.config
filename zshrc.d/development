@@ -1,0 +1,51 @@
+# git
+alias gs='git status'
+alias grm='git rm --cached -r'
+alias grv='git remote -v'
+alias gcam='git commit -am'
+gclone() { git clone (removed):/mnt/git/$@ }
+
+# mysql
+alias mysqll='mysql -umichael -p(removed)' 
+alias mysqldumpl='mysqldump -umichael -p(removed)'
+alias dbls=' mysqll -e "show databases;"'
+# new database
+ndb() { mysqll -e "create database $1;" }
+# new database user
+ndbu() { mysqll -e "create user '$1'@'localhost' identified by '$2'; grant all privileges on $1.* to '$1'@'localhost';" }
+
+# apache
+alias a2a='tail /var/log/apache2/access.log'
+alias a2af='tail -f /var/log/apache2/access.log'
+alias a2e='tail /var/log/apache2/error.log'
+alias a2ef='tail -f /var/log/apache2/error.log'
+alias a2r='sudo service apache2 restart'
+alias a2t='apachectl configtest'
+alias a2c='cd /etc/apache2/sites-available'
+
+# image optimisation
+alias optijpg='jpegoptim'
+alias oj='jpegoptim'
+alias oj80='optijpg -m80 *.jpg'
+alias op='optipng'
+alias mog1920='mogrify -resize 1920x1920 *.jpg'
+
+# browser sync
+bro () {
+if [[ $#@ = 0 ]]
+then
+  broDir=$PWD[(ws:/:)-1] 
+else
+  broDir=$1 
+fi
+browser-sync start --proxy "localhost/$broDir" --files "css/*.css,**/*.php"
+}
+
+# python
+alias pyt='python -m nose --rednose'
+pyw() { while inotifywait -q -e close_write $1; do python -m nose --rednose -v $1; done }
+pywd() { while inotifywait -q -r -e close_write .; do python -m nose --rednose -v $1; done }
+# execute file on every save
+inf() { while inotifywait -q -e close_write $1; do ./$1; done }
+# execute file on any save in same dir
+ind() { while inotifywait -q -r -e close_write .; do ./$1; done }
