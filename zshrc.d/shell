@@ -1,9 +1,12 @@
 export ZSH=/home/michael/.oh-my-zsh
+
 ZSH_THEME="michael"
+# wget -o ~/.oh-my-zsh/custom/themes/michael.zsh-theme https://gist.githubusercontent.com/michja/3d8c7bc84c7903762252ce3419141737/raw/1fcf89cb919cbee14d120ebab56f3a2abfc59e79/michael.zsh-theme
+
 export EDITOR='vim'
 
 plugins=(git z history sudo tmux zsh-syntax-highlighting)
-# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 setopt no_share_history
 autoload -U zmv
