@@ -1,0 +1,12 @@
+; generated_rule Pick
+( if 
+( begin 
+( is ( window_name ) "Pick" )
+) 
+( begin 
+( pin )
+( unminimize )
+( stick )
+( geometry "653x734+820+160" )
+)
+)
