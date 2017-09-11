@@ -1,0 +1,31 @@
+# configs
+alias vz="vim ~/.zshrc"
+alias subz='subl ~/.zshrc'
+alias sz="source ~/.zshrc"
+alias vt="vim ~/.tmux.conf"
+alias subt="subl ~/.tmux.conf"
+alias vv="vim ~/.vim/vimrc"
+alias subv="subl ~/.vim/vimrc"
+
+# directories
+alias cdr='cd /home/michael/public_html'
+cdl() { cd $1; ls }
+alias cdg='cd /git'
+alias rmr='rm -r'
+alias lsd="ls --group-directories-first"
+
+# sysadmin
+alias svim='sudo vim'
+alias cx='chmod +x'
+alias scx='sudo chmod +x'
+alias mouse='xset dpms force off' # restore mouse after lock bug
+alias redropbox='pkill dropbox && dbus-launch dropbox start -i'
+alias fixcrash='sudo rm /var/crash/*'
+alias recomp='pkill compton && compton -b &'
+
+# package manager
+alias as='apt-cache search'
+alias ai='sudo apt install'
+alias di='sudo dpkg -i'
+
+
