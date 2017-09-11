@@ -1,1 +1,3 @@
 source ~/.config/zshrc.d/shell
+source ~/.config/zshrc.d/system
+source ~/.config/zshrc.d/development
