@@ -7,4 +7,6 @@ autoload -U zmv
 precmd() { print "" }
 
 source $ZSH/oh-my-zsh.sh
-source ~/.scripts/z.sh
+source ~/.scripts/zsh/z.sh
+source ~/.scripts/zsh/syntax-highlighting/zsh-syntax-highlighting.zsh
+
