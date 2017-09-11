@@ -1,6 +1,6 @@
 # configs
-alias vz="vim ~/.zshrc"
-alias subz='subl ~/.zshrc'
+alias vz="vim ~/.config/zshrc.d"
+alias subz='subl ~/.config.zshrc.d'
 alias sz="source ~/.zshrc"
 alias vt="vim ~/.tmux.conf"
 alias subt="subl ~/.tmux.conf"
