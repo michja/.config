@@ -1,3 +1,7 @@
-VteTerminal, vte-terminal {
-    padding: 20px;
- }
+
+/* gnome-terminal padding */
+VteTerminal, vte-terminal { padding: 20px; }
+
+/* pulse audio icon is too large */
+#pulseaudio-button { padding: 2px; }
+
