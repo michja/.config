@@ -1,0 +1,144 @@
+/*    Firefox Edge v1.11.1    */
+/* this file built up over time, some settings might be superfluous */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*nav bar auto hide*/
+#urlbar:not([focused]) {
+  height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#urlbar {
+  height: 24px !important;
+  background-color: #272B35 !important;
+  position: fixed !important;
+  top: 30% !important;
+  left: 50% !important;
+  width: 90% !important;
+  max-width: 700px !important;
+  margin: 0 !important;
+  margin-bottom: -10px !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+      -ms-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+  overflow: hidden !important;
+  border: none !important;
+  padding: 20px 40px 44px 36px !important;
+  -webkit-box-shadow: 2px 2px 8px #444 !important;
+          box-shadow: 2px 2px 8px #444 !important;
+  -webkit-border-radius: 4px !important;
+          border-radius: 4px !important;
+  font-size: 14px !important;
+}
+.urlbar-textbox-container {
+  width: 100% !important;
+}
+.urlbar-input-box { /*no border to left of url input*/
+  border: none !important;
+}
+#nav-bar { min-height: 0px !important; background-color: #272B35 !important;}
+#urlbar-container { 
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  min-height: 0px !important; 
+  margin-bottom: -10px !important }
+
+/* search results */
+.search-one-offs { display: none !important; }
+.autocomplete-richlistbox { width: 100% !important; }
+
+/* hide most results */
+.autocomplete-richlistitem { display: none; font-size: 14px !important;
+padding: 10px !important;
+height: 44px !important; }
+
+/* show first 5 results */
+.autocomplete-richlistitem:nth-of-type(-n+5) { display: -moz-box; }
+
+/* position search autocomplete */
+#PopupAutoCompleteRichResult {
+  margin-left: 0 !important;
+  margin-top: -webkit-calc( 30vh + 20px) !important;
+  margin-top: calc( 30vh + 20px) !important;
+  max-width: 700px !important;
+  width: 90% !important;
+}
+
+
+/* buttons */
+#PanelUI-menu-button { display: none; }
+#back-button, #forward-button { display: none !important; }
+#stop-button, #reload-button { border:none !important; margin-left: -5px !important; }
+#urlbar-go-button,
+#reload-button,
+#stop-button {
+display: none !important;
+}
+
+/* replace download button image */
+#downloads-button image, #downloads-indicator-icon  { opacity: 0 !important; }
+#downloads-button {
+  margin-top: -2px !important;
+  background-image: url("/home/michael/Pictures/icons/d-square-orange.png")!important;
+  background-repeat: no-repeat !important;
+  -webkit-background-size: 14px 14px;
+          background-size: 14px 14px;
+  background-position: center center !important;
+  width: 34px !important;
+  height: 16px !important;
+}
+
+/* tabs */
+/* Selected tab */
+#TabsToolbar .tabbrowser-tab[selected] { 
+  background-color: #ff8700 !important;
+  -moz-box-flex: 200 !important;
+  -webkit-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+ }
+
+/*tab height*/
+tabs, tab, tabpanels {
+  height: 32px !important;
+  min-height: 32px !important;
+  padding: 0 !important;
+  -webkit-transition: height 0.5s ease-out !important, max-height 0.5s ease-out !important;
+  -o-transition: height 0.5s ease-out !important, max-height 0.5s ease-out !important;
+  transition: height 0.5s ease-out !important, max-height 0.5s ease-out !important;
+}
+
+/*tab content*/
+.tab-label {
+  font-size: 10px !important;
+}
+tab {padding:0px !important; }
+#tabbrowser-tabs .tabbrowser-tab {  border: 0px solid transparent !important; }
+.tabbrowser-tab::before {
+  border-color: #272B35 !important;
+  -webkit-border-image: none !important;
+       -o-border-image: none !important;
+          border-image: none !important;
+}
+tab:hover { background-color: rgba(0,0,0,0.2) !important; }
+.tab-icon-overlay, .tab-close-button, .tab-throbber, .tab-icon-image  {padding:0px !important; margin-top: 2px !important;}
+#TabsToolbar  { margin-top: -1px !important;}
+#navigator-toolbox:hover ~ #content-deck { opacity: 0.72 !important;  }
+
+#content-deck {
+  -webkit-transition: opacity 0.23s ease !important;
+  -o-transition: opacity 0.23s ease !important;
+  transition: opacity 0.23s ease !important;
+}
+
+/*extend nav bar to full width*/
+#nav-bar-customization-target {
+  margin-right: -3px !important;
+}
+
+/*pinned tab*/
+#tabbrowser-tabs .tabbrowser-tab[pinned] .tab-icon-image {
+  margin-top: 4px !important;
+}
