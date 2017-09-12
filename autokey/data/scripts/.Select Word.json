@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 3, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Home", 
+    "description": "Select Word", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "<left>", 
+        "hotKey": "d", 
         "modifiers": [
-            "<super>"
+            "<alt>", 
+            "<ctrl>"
         ]
     }, 
     "modes": [

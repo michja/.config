@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Home", 
+    "description": "Shift+Home", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -14,6 +14,7 @@
     "hotkey": {
         "hotKey": "<left>", 
         "modifiers": [
+            "<shift>", 
             "<super>"
         ]
     }, 
