@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Autoprefixer",
+		"ayu",
+		"Emmet",
+		"Makefile Improved",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+	]
+}
