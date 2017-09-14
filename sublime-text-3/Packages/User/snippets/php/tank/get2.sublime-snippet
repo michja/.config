@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<?php \$${1:A} = tank_get2( "${2:article}", "order by ordering asc" ); \$${1:A}->show_select(); ?>
+<?php foreach (\$${1:A}->arts as \$${3:key}${4: => \$${5:value}}) : ?>
+  ${6}
+<?php endforeach; ?>
+]]></content>
+  <tabTrigger>tg2</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
