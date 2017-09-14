@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<?php \$${1:A} = tank_get( "${2:article}" ); if ( \$${1:A} ) : ?>
+  ${3}
+<?php endif; ?>
+]]></content>
+  <tabTrigger>tg</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
