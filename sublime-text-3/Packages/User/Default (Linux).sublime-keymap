@@ -1,0 +1,12 @@
+[
+	{ "keys": ["ctrl+k", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+  { "keys": ["ctrl+k", "t"], "command": "toggle_tabs"},
+  { "keys": ["ctrl+k", "m"], "command": "toggle_menu"},
+  { "keys": ["ctrl+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+k", "b"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+k", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+k", "h"], "command": "travel_to_pane", "args": {"direction": "left"} },
+  { "keys": ["ctrl+b"], "command": "build", "context": [{"key": "build_fake", "operator":"equal", "operand":true}]},
+  { "keys" : ["super+g"], "command": "find_all_under"}
+]
