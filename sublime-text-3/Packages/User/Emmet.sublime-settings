@@ -1,0 +1,19 @@
+{
+// Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
+  "snippets": {
+    // "html": {
+    //  "abbreviations": {
+    //    "example": "<div class='example' title='Custom element example'>"
+    //  }
+    // }
+    "css": {
+     "abbreviations": {
+       "mediaq": "@media only screen and (max-width: ${1}px) {\n  ${2}\n}",
+       "group": ".group:after {\n  content: '';\n  display: table;\n  clear: both;\n}",
+       "sec": "/******************************\n         ${1}\n*******************************/\n\n",
+       "wct": "will-change: ${1};\ntransition: ${1} ${2:1}s ease;"
+     }
+    }
+  },
+
+}
