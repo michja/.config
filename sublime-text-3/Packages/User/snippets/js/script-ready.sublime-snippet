@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<script>
+  ( function() {
+    document.addEventListener( "DOMContentLoaded", function( event ) {
+      ${1}
+    } );
+  } ).call( this );
+</script>
+]]></content>
+  <tabTrigger>jsr</tabTrigger>
+  <scope>text.html/scope>
+</snippet>
