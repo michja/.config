@@ -6,6 +6,6 @@
   } );
 } ).call( this );
 ]]></content>
-  <tabTrigger>ready</tabTrigger>
+  <tabTrigger>jr</tabTrigger>
   <scope>source.js</scope>
 </snippet>
