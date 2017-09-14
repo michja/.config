@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<?php foreach ( \$${1:var} as \$${2:key}${3: => \$${4:value}} ) : ?>
+  ${5}
+<?php endforeach; ?>
+
+]]></content>
+  <tabTrigger>pfe</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
