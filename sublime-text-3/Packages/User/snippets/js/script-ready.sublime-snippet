@@ -9,5 +9,5 @@
 </script>
 ]]></content>
   <tabTrigger>jsr</tabTrigger>
-  <scope>text.html/scope>
+  <scope>text.html</scope>
 </snippet>
