@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+  \$(document).ready(function () {
+    \$("*").each(function() {
+        if (\$(this).width() > \$(window).width()) {
+            console.log(this.tagName + "#" + this.id, this);
+        }
+    });
+  });
+</script>
+]]></content>
+  <tabTrigger>jqwidth</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
