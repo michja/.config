@@ -4,6 +4,6 @@
   ${1}
 } );
 ]]></content>
-  <tabTrigger>jqready</tabTrigger>
+  <tabTrigger>jqr</tabTrigger>
   <scope>source.js</scope>
 </snippet>
