@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<?php if ( get_sub_field( '${1:text}' ) ) : ?>
+  $2
+<?php endif; ?>
+]]></content>
+  <tabTrigger>isf</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
