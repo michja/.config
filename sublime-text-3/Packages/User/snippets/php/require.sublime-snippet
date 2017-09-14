@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<?php require '${1:partials/${2}}.php'; ?>
+
+]]></content>
+  <tabTrigger>pr</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
