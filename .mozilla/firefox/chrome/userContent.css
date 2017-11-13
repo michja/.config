@@ -1,0 +1,88 @@
+@-moz-document domain(google.co.uk) {
+  /*logo*/
+  a#logo img {
+    display: none !important;
+  }
+  a#logo {
+    width: 80px !important;
+    height: 80px !important;
+    background-image: url('/home/michael/Pictures/pointing-monkey.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: 80px 80px !important;
+    transform: rotate(11deg) !important;
+  }
+  #logocont {
+    height: 52px !important;
+    overflow: hidden !important;
+    padding-top: 3px !important;
+    padding-left: 23px !important;
+  }
+  /*search form*/
+  #gb {
+    display: none !important;
+  }
+  div.sfbg {
+    display: none !important;
+  }
+  form#tsf {
+    position: fixed !important;
+    top: 8px !important;
+  }
+  .tsf-p {
+    padding-left: 164px !important;
+  }
+  #sfdiv {
+    max-width: 540px !important;
+  }
+  /*other search links*/
+  #hdtb-msb {
+    position: fixed !important;
+    float: none !important;
+    top: 0 !important;
+    background-color: #222 !important;
+    left: 0 !important;
+    right: 0 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding-right: 20px !important;
+    /*padding-top: 10px !important;*/
+    box-shadow: 0 0 20px rgba(88,89,91,0.15) !important;
+    z-index: 100 !important;
+  }
+  #hdtb-msb > div:last-of-type {
+    display: none !important;
+  }
+  #hdtb .hdtb-mitem a {
+    color: #fff !important;
+  }
+  #hdtb .hdtb-mitem a:hover {
+    color: #ddd !important;
+  }
+  #hdtb-msb .hdtb-mitem.hdtb-msel {
+    border-bottom: 3px solid transparent !important;
+    color: #fff !important;
+    background-color: rgb(12, 76, 138) !important;
+    padding: 24px 16px 16px !important;
+  }
+  #hdtb-msb .hdtb-mitem.hdtb-imb {
+    padding-top: 24px !important;
+  }
+  /*misc*/
+  #sfcnt {
+    height: 0;
+  }
+  #resultStats {
+    position: absolute !important;
+    /*left: 0 !important;*/
+    top: -4px !important;
+  }
+  /*in-search bar icons*/
+  #gs_st0, .sbico-c {
+    padding-top: 2px !important;
+  }
+  .sfbgx {
+    background-color: transparent !important;
+    border-bottom-color: transparent !important;
+  }
+}
+
